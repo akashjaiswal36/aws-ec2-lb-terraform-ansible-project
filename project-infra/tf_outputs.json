@@ -1,0 +1,17 @@
+{
+  "alb_dns_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "web-alb-1348686258.ap-south-1.elb.amazonaws.com"
+  },
+  "ec2_public_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "13.233.51.77"
+  },
+  "s3_bucket_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "akash-123-secure-app-bucket"
+  }
+}

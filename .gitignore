@@ -1,1 +1,29 @@
+# Terraform directories
 .terraform/
+**/.terraform/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Sensitive variable files
+terraform.tfvars
+*.tfvars
+
+# Output files
+tf_outputs.json
+
+# Crash logs
+crash.log
+*.log
+
+# IDE/editor junk
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+.vscode/
+.idea/

@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "app_bucket" {
-  bucket = "secure-app-bucket"
+  bucket = "akash-123-secure-app-bucket"
 }
 
 resource "aws_s3_bucket_public_access_block" "block_public" {

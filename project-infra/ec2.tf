@@ -1,6 +1,6 @@
 resource "aws_launch_template" "web_template" {
   name_prefix   = "web-server"
-  image_id      = "ami-020cba7c55df1f615"
+  image_id      = "ami-0f918f7e67a3323f0"
   instance_type = "t2.micro"
 
   user_data = base64encode(templatefile("${path.module}/userdata.tpl", {

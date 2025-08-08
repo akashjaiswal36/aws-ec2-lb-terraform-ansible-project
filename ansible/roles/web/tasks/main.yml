@@ -1,17 +1,10 @@
-- name: Install Nginx
+- name: Install Apache
   apt:
-    name: nginx
+    name: apache2
     state: present
     update_cache: yes
 
-- name: Deploy custom index page
+- name: Deploy index.html
   template:
     src: index.html.j2
     dest: /var/www/html/index.html
-    mode: '0644'
-
-- name: Ensure Nginx is running
-  service:
-    name: nginx
-    state: started
-    enabled: true
